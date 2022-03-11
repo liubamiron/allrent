@@ -12,7 +12,7 @@ name: 'my-button'
 
 <style scoped>
 .btn {
-  padding: 15px 15px;
+  padding: 10px 15px;
   background: none;
   color: teal;
   border: 1px solid teal
