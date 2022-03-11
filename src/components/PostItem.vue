@@ -11,6 +11,11 @@
         >
           Delete
         </my-button>
+        <my-button
+          @click="$router.push(`/posts/${post.id}`)"
+        >
+          Open
+        </my-button>
       </div>
     </div>
 </template>
@@ -34,5 +39,8 @@ props: {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.post__btns {
+  display: flex;
 }
 </style>

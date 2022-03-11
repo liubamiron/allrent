@@ -3,6 +3,7 @@
       <h2>Create Post</h2>
       <div class="mb-3">
         <my-input
+            v-focus
             v-model="post.title"
             type="text"
             placeholder="title"
